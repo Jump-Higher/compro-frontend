@@ -40,3 +40,19 @@
         - klik inpect element
         - lihat pada h1 default menggunakan Circular
           dan juga p default menggunakan inter
+
+## configuration colors
+
+    Todo:
+    1.  tailwind.config.js
+        - daftarkan colors yang akan di tambahkan
+        - pada extend tambahkan colors
+          masukan hexa color yang di inginkan buat kedlam object
+    2.  App.jsx
+        - panggila color yang sudah di daftarkan dengan menggunakan
+          className text-nama color yang ditambahkan
+    3.  pengujian pada browser:
+        - npm run dev
+        - http://localhost:5173/
+        - klik inpect element
+        - terdapat warna2 yang sudah didaftarkan
